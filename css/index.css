@@ -1,0 +1,358 @@
+header{
+	width: 100%;
+	height: 40px;
+	background-color: #444;
+}
+main{
+	max-width: 1024px;
+	height: 100%;
+	background-color: seagreen;
+	margin: 0 auto;
+
+}
+.head-wenzi{
+	float: right;
+	line-height: 40px;
+	font-size: 12px;
+	color: #a8a8aa;
+}
+/* 屏幕<1024 */
+@media screen and (max-width: 1024px){
+	.nav-big{
+		padding-right: 24px;
+	}
+}
+nav{
+	width: 100%;
+	height: 44px;
+	background-color: black;
+}
+nav main{
+	text-align: justify;
+}
+nav main:after{
+	content: "";
+	display: inline-block;
+	width: 100%;
+	font-size: 0;
+	line-height: 0;
+}
+nav a{
+	font-size: 14px;
+	line-height: 44px;
+	color: white;
+	/* display: block; */
+
+}
+#banner{
+	width: 100%;
+	height: 500px;
+	background-color: gray;
+	position: relative;
+}
+.banner-wz{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 217px;
+	color: white;
+	/* background-color: seagreen; */
+	display: flex;
+	flex-wrap: wrap;
+	/* justify-content: center; */
+	align-content: center;
+	/* flex-direction: column; */
+}
+.banner-wz span{
+	width: 100%;
+	text-align: center;
+
+}
+.banner-wz span:nth-child(1){
+	font-size: 28px;
+}
+.banner-wz span:nth-child(2){
+	font-size: 32px;
+}
+
+.banner-img{
+	width: 100%;
+	height: 100%;
+	background-image: url('../img/iphone_7_large.jpg');
+	background-size: cover;
+	background-position: top center;
+}
+#activity{
+	width: 100%;
+	height: 268px;
+	background-color: gray;
+	margin-top: 1px;
+	/* overflow: hidden; */
+	/* position: relative; */
+}
+.activity-box{
+	/* display: block; */
+	width: 25%;
+	height: 268px;
+	background-color: gray;
+	overflow: hidden;
+	position: relative;
+	float: left;
+	
+	border: 1px black solid;
+	border-left: 0;
+}
+
+.activity-img{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	background-image: url('../img/event_teaser_large.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom center;
+}
+.activity-wz{
+	position: absolute;
+	top: 30px;
+	left: 15%;
+	z-index: 2;
+	text-align: center;
+}
+.activity-wz span:nth-child(1){
+	display: block;
+	font-size: 18px;
+	color: #000 ;
+	text-align: center;
+}
+.activity-wz span:nth-child(2){
+	display: block;
+	font-size: 14px;
+	color: #b0b0b0 ;
+	text-align: center;
+}
+.activity-wz span:nth-child(3){
+	display: block;
+	font-size: 14px;
+	color: #b0b0b0 ;
+	text-align: center;
+}
+footer{
+	width: 100%;
+	height: 493px;
+	background-color:gray;
+}
+.footer-top{
+	width: 1024px;
+	height: 71px;
+	border-bottom: 2px solid skyblue;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+.footer-top p{
+	width: 100%;
+	display: block;
+	float: left;
+	font-size: 12px;
+	line-height: 14px;
+	margin-top: 12px;
+}
+.footer-center{
+	width: 1024px;
+	height: 286px;
+	padding-top: 40px;
+	margin: 0 auto;
+}
+.ft-center-box{
+	width: 176px;
+	height: 183px;
+	float: left;
+	display: block;
+}
+.ft-center-box ul{
+	overflow: hidden;
+}
+.ft-center-box a{
+	color: black;
+	
+}
+.ft-center-box li:nth-child(1){
+	font-weight: bolder;
+}
+.ft-center-box li{
+	font-size: 11px;
+	margin-bottom: 6px;
+	color: black;
+}
+.ft-center-box1{
+	margin-right: 20px;
+}
+.ft-center-box2{
+	width: 176px;
+	height: 225px;
+	float: left;
+	display: block;
+	margin-right: 20px;
+}
+.ft-center-box3{
+	width: 196px;
+	height: 138px;
+	float: left;
+	display: block;
+}
+.ft-center-box4{
+	width: 196px;
+	height: 201px;
+	float: left;
+	display: block;
+}
+.ft-center-box{
+	width: 196px;
+	height: 120px;
+	float: left;
+	display: block;
+}
+.kk{
+
+	margin-top: 20px;
+}
+.bt-top{
+	width: 100%;
+	height: 24px;
+	margin-bottom: 7px;
+	padding-bottom: 6px;
+	border-bottom: 1px solid #d6d6d6;
+}
+.footer-bottom{
+	width: 1024px;
+	/* height: 109px; */
+	margin: 0 auto;
+	padding-top: 34px;
+}
+
+.bt-top p{
+	display: block;
+	float: left;
+	font-size: 11px;
+	color: #000;
+	
+}
+.bt-top a{
+
+	font-size: 11px;
+	color: #000;
+	
+}
+.bt-bt{
+	width: 1024px;
+	height: 23px;
+	margin: 0 auto;
+}
+.bt-bt p{
+	display: block;
+	float: left;
+	font-size: 11px;
+	/* line-height: 24px; */
+	color: #000;
+	margin-top: 3px;
+	margin-right: 30px;
+}
+.bt-bt a{
+	font-size: 11px;
+	color: black;
+	float: left;
+	line-height: 20px;
+}
+.country{
+	width: 24px;
+	height: 24px;
+	background-color: red;
+	border-radius: 50%;
+	float: right;
+	
+	font-size:11px;
+	color: black;
+	line-height: 24px;
+}
+
+.bt-bt span{
+	font-size: 14px;
+	float: right;
+	line-height: 24px;
+}
+.last{
+	font-size: 11px;
+	color: #000;
+	float: left;
+}
+/* .ft-center-box li:nth-child(1){
+	font-weight: bolder;
+} */
+/* 屏幕<1024 */
+@media screen and (max-width: 1024px){
+	main{
+		padding-right: 24px;
+	}
+	nav main{
+		padding-left: 24px;
+	}
+	#banner{height: 460px;
+			
+			}
+	.banner-img{background-image: url('../img/iphone_7_medium.jpg');}
+	.banner-wz{
+		height: 211px;
+	}
+	.banner-wz span:nth-child(1){
+	font-size: 24px;
+	}
+	.banner-wz span:nth-child(2){
+	font-size: 28px;
+	}
+	.activity-box{
+		width: 50%;
+	}
+	.activity-img{background-image: url('../img/event_teaser_medium.jpg');}
+}	
+/* 屏幕>767 */
+@media screen and (min-width: 767px){
+	.nav-big{
+		display: block;
+	}
+	.nav-small{
+		display: none;
+	}
+
+}
+/* 屏幕<767 */
+@media screen and (max-width: 767px){
+	.nav-big{
+		display: none;
+	}
+	.nav-small{
+		display: block;
+	}
+	#banner{
+		height: 380px;}
+		
+	.banner-img{background-image: url('../img/iphone_7_small.jpg');
+	}
+	.banner-wz{
+		height: 201px;
+	}
+	.banner-wz span:nth-child(1){
+	font-size: 20px;
+	}
+	.banner-wz span:nth-child(2){
+	font-size: 24px;
+	}
+	.activity-box{
+		width: 100%;
+	}
+	.activity-img{background-image:url('../img/event_teaser_small.jpg');}
+}
+
